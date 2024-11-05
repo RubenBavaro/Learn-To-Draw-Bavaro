@@ -30,27 +30,27 @@
     //arc(x, y, radius, startAngle, endAngle)
     //x = x + 1
     //y = y + 1
-    background("red"); 
-    let centerX = width / 2;
-    let centerY = height / 2;
+    background("red")
+    let centerX = width / 2
+    let centerY = height / 2
 
-    stroke("black");
-    fill("yellow");
-    circle(centerX, centerY, 250); 
+    stroke("black")
+    fill("yellow")
+    circle(centerX, centerY, 250)
 
-    stroke(255, 255, 255);
-    fill("white");
-    stroke("black"); 
-    strokeWeight(2);
+    stroke(255, 255, 255)
+    fill("white")
+    stroke("black")
+    strokeWeight(2)
     circle(centerX - 50, centerY - 30, dimensioneOcchio); 
     circle(centerX + 50, centerY - 30, dimensioneOcchio);
     fill("black");
-    circle(200 + map(mouseX, 0, 500, -offset, offset, 200 + map(mouseY, 0, 500, -offset, offset)), 20)
-    circle(200 + map(mouseX, 0, 500, -offset, offset, 200 + map(mouseY, 0, 500, -offset, offset)), 20)
+    circle(200 + map(mouseX, 0, 1500, -offset, offset), 220 + map(mouseY, 0, 1000, -offset, offset), 20)
+    circle(300 + map(mouseX, 0, 1500, -offset, offset), 220 + map(mouseY, 0, 1000, -offset, offset), 20)
     noFill();
-    stroke("black");
-    strokeWeight(2);
-    arc(centerX, centerY + 20, 100, 100, 10, 170);
+    stroke("black")
+    strokeWeight(2)
+    arc(centerX, centerY + 20, 100, 100, 10, 170)
     }
     </script>
 </body>
