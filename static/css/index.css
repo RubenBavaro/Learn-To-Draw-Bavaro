@@ -1,0 +1,27 @@
+@import "commons.css";
+
+.centerItems{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.greenBg{
+    background-color: green;
+}
+
+.square{
+    width: 500px;
+    height: 500px;
+}
+
+
+
+.yellowBg{
+    background-color: yellow;
+}
+
+.transition{
+    transition: all 6s;
+}
